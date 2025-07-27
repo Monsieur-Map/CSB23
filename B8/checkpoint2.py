@@ -24,7 +24,7 @@ class Gop:
     
     def __init__(self, nums1, nums2):
         if not nums1 and not nums2: 
-            print("Cảnh báo cả 2 mảng đều rỗng")
+            print("Cảnh báo cả 2 mảng đều rỗng") #Theo như cô dăn:)
         self.nums1 = nums1
         self.nums2 = nums2
         self.fusion = []
@@ -56,7 +56,7 @@ class Gop:
     def ket_qua(self): #Hàm kết quả
         return self.fusion
     
-     #Theo như cô dăn:)
+     
 
 #Sử dụng cờ class
 ket_qua_gop_mang = Gop(nums1,nums2)
