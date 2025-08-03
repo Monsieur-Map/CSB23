@@ -13,7 +13,7 @@ if len_nums2 > 0:
     for i in range(len_nums2):
        item = input(f"Phần tử thứ {i+1}:") 
        if item: nums2.append(item)
-print(f"Mảng 2 là: {nums2}" )   
+print(f"Mảng 2 là: {set(nums2)}" )   
 
 
 
@@ -67,3 +67,4 @@ ket_qua_gop_mang.bubble_sort()
 print("Kết quả sau khi gộp và sắp xếp là: ", ket_qua_gop_mang.ket_qua()) #lấy kết quả cuối cùng từ hàm def ket_qua
 print("Độ phức tạp của chương trình thì ở hàm merged thì độ khó là 0(2n) do có 2 for đi song song")
 print("Độ phức tạp của chương trình thì ở hàm bubble sort thì có độ khó là 0(n^2) do có for lồng for") 
+
